@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="apk" name="tetris_v4">
+    <output-path>$PROJECT_DIR$/out/artifacts/tetris_v4</output-path>
+    <properties id="android-properties">
+      <options>
+        <option name="keyStoreUrl" value="file://" />
+        <option name="proGuardCfgFiles">
+          <list>
+            <option value="file://%MODULE_SDK_HOME%/tools/proguard/proguard-android.txt" />
+          </list>
+        </option>
+        <option name="runProGuard" value="true" />
+      </options>
+    </properties>
+    <properties id="ant-postprocessing">
+      <options enabled="true" />
+    </properties>
+    <properties id="ant-preprocessing">
+      <options enabled="true" />
+    </properties>
+    <root id="archive" name="tetris_v4.apk">
+      <element id="android-final-package" facet="tetris_v4/android/Android" />
+    </root>
+  </artifact>
+</component>
